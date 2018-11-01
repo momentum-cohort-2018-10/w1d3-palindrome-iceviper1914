@@ -14,9 +14,8 @@ def is_palindrome(words):
     elif words[0] == words[-1]:
         return is_palindrome(words[1:-1])
     else:
-        return False
         print("is not a palindrome")
-
+        return False
 words = input("What word would you like to use? ")
 a = clean_words(words)
 is_palindrome (a)

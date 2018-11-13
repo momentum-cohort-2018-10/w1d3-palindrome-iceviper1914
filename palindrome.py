@@ -45,3 +45,9 @@ is_palindrome (a)
 #         addify(num, num2)
 #     else:
 
+# while len(text) > 1
+#     if text[0] == text[-1]
+#     text = text [1:-1]
+#     else:
+#         return False
+# return True
